@@ -1,9 +1,13 @@
 # Fisica1 exam generator
 
 Questo progetto è un semplice generatore di esami di Fisica T1 del corso del prof. D. Galli (Università di Bologna).
+
 Il programma una volta modifica il sorgente inserendo il numero corretto di liste e il numero degli esercizi che formano ogni lista procederà a generare un esame.
+
 L'esame generato dal programma estrarrà da ogni lista di quesiti/esercizi un quesito/esercizio.
+
 Se a tempo di esecuzione il programma troverà nella sua directory il file "storico_estrazioni_f1.txt", allora, farà in modo di estrarre dalle liste quesiti ed esercizi con una media di estrazioni minore o uguale alla media di estrazioni degli esercizi/quesiti della lista di riferimento.
+
 Il formato del file "storico_estrazioni_f1.txt" è il seguente:
 ```
 numero_quesito_1 | numero_estrazioni_quesito_1 ,

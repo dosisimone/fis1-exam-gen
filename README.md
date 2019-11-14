@@ -1,3 +1,4 @@
+#Fisica1 exam generator
 
 Questo progetto è un semplice generatore di esami di Fisica T1 del corso del prof. D. Galli (Università di Bologna).
 Il programma una volta modifica il sorgente inserendo il numero corretto di liste e il numero degli esercizi che formano ogni lista procederà a generare un esame.
